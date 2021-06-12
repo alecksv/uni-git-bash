@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Sans-bold";
+  src: url(../fonts/Source/sourcesanspro-bold-webfont.woff2),
+    url(../fonts/Source/sourcesanspro-bold-webfont.woff);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sans-black";
+  src: url(../fonts/Source/sourcesanspro-black-webfont.woff2),
+    url(../fonts/Source/sourcesanspro-black-webfont.woff);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sans-regular";
+  src: url(../fonts/Source/sourcesanspro-regular-webfont.woff2),
+    url(../fonts/Source/sourcesanspro-regular-webfont.woff);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sans-semibold";
+  src: url(../fonts/Source/sourcesanspro-semibold-webfont.woff2),
+    url(../fonts/Source/sourcesanspro-semibold-webfont.woff);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Awesome";
+  src: url(../fonts/awesome/all/all.min.css);
+}

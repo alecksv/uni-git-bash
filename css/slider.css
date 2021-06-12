@@ -1,0 +1,44 @@
+.slick-track {
+  display: flex;
+}
+.slick-list {
+  overflow: hidden;
+}
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wr-articles-item {
+  margin: 0 -15px;
+}
+.articles-item {
+  margin: 0 15px;
+}
+
+/* Стилизуем стрелки==================
+====================================== */
+.wr-articles-item {
+  position: relative;
+  padding: 0 50px;
+}
+.wr-articles-item .slick-arrow {
+  top: 50%;
+  position: absolute;
+  z-index: 10;
+  color: aquamarine;
+  font-size: 0;
+  width: 30px;
+  height: 60px;
+}
+
+.wr-articles-item .slick-arrow.slick-next {
+  right: 0;
+
+  background: url("../img/featured/right-arrow.svg") 0 0 / 100% no-repeat;
+}
+.wr-articles-item .slick-arrow.slick-prev {
+  left: 0;
+
+  background: url("../img/featured/left-arrow.svg") 0 0 / 100% no-repeat;
+}
